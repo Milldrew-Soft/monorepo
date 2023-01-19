@@ -18,3 +18,9 @@ Application Description
 
 The application that we are building is a podcast like application where
 the listeners can be invited onto the podcast and participate.
+
+──────────
+Contributing
+You can fork the repository and then make a pull request via a fork.
+Or you can join request to join the organization and make contributions
+via pull requests.
