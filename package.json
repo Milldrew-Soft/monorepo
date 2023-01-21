@@ -1,0 +1,24 @@
+{
+  "name": "realtime-web-app",
+  "version": "1.0.0",
+  "description": "The Milldrew Soft Monorepo ────────── This is the beginning of a monorepo which will contain multiple workspaces that  will have multiple projects (libraries/applications) in a monorepo architecture.  ────────── • We will start with an angular workspace that will be managed by the angular    cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milldrew-Soft/monorepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milldrew-Soft/monorepo/issues"
+  },
+  "homepage": "https://github.com/Milldrew-Soft/monorepo#readme",
+  "devDependencies": {
+    "@nestjs/cli": "^9.1.8",
+    "prettier": "^2.8.3"
+  }
+}
