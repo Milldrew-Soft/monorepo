@@ -9,10 +9,7 @@ export class AppComponent {
   constructor() {}
   isConnected = false;
   callButtonInnerHtml: 'Join Call' | 'Leave Call' = 'Join Call';
-  callButtonClasses = {
-    connected: !!this.isConnected,
-    disconnected: !this.isConnected,
-  };
+  callButtonClasses = this.createCallButtonClasses();
   handleCallButton(event: MouseEvent) {
     this.isConnected = !this.isConnected;
     console.log(this.isConnected);
@@ -21,5 +18,12 @@ export class AppComponent {
     } else {
       this.callButtonInnerHtml = 'Join Call';
     }
+    this.callButtonClasses = this.createCallButtonClasses();
+  }
+  createCallButtonClasses() {
+    return {
+      connected: !!this.isConnected,
+      disconnected: !this.isConnected,
+    };
   }
 }
