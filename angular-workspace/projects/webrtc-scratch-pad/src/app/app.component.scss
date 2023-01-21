@@ -215,3 +215,12 @@ video {
     margin-bottom: 0;
   }
 }
+
+.disconnected {
+  background-color: red;
+  color: white;
+}
+.connected {
+  background-color: green;
+  color: white;
+}

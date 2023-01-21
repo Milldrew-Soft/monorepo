@@ -1,16 +1,15 @@
-<!--
- ! Excerpted from "Programming WebRTC",
- ! published by The Pragmatic Bookshelf.
- ! Copyrights apply to this code. It may not be used to create training material,
- ! courses, books, articles, and the like. Contact us if you are in doubt.
- ! We make no guarantees that this code is fit for any purpose.
- ! Visit https://pragprog.com/titles/ksrtc for more book information.
--->
-
 <main id="interface">
   <header id="header">
     <h1>Welcome</h1>
-    <button class="join" type="button" id="call-button">Join Call</button>
+    <button
+      class="disconnected"
+      (click)="handleCallButton($event)"
+      type="button"
+      id="call-button"
+      [class.connected]="isConnected"
+    >
+      {{ callButtonInnerHtml }}
+    </button>
   </header>
   <article id="videos">
     <h2 class="preserve-access">Streaming Videos</h2>
