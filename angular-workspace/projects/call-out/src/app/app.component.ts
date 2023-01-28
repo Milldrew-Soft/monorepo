@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { StreamsAccordionDIO } from 'projects/millterial/src/public-api';
+import { streamList } from './streamList';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  streamAccodrionDIO: StreamsAccordionDIO = streamList;
   createStream() {
     // Create a stream
     console.log('Stream created');
