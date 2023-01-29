@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 
 test('visualy look at screen sizes', async ({ page }) => {
   await page.goto('http://localhost:4200/');
