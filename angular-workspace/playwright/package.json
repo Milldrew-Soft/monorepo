@@ -7,6 +7,7 @@
     "@playwright/test": "^1.29.1"
   },
   "scripts": {
+    "sizes": "npx playwright test tests/viewport-size.spec.ts --headed --browser chromium",
     "redo": "npx playwright test tests/redo.spec.ts --headed --browser chromium"
   }
 }
