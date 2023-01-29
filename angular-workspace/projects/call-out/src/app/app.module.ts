@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
+  AvatarsModule,
   MillterialButtonModule,
   MillterialStreamPanelModule,
 } from '../../../millterial/src/public-api';
@@ -20,6 +21,7 @@ import { LandingPageComponentComponent } from './landing-page-component/landing-
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
+    AvatarsModule,
     MillterialButtonModule,
     MillterialStreamPanelModule,
   ],

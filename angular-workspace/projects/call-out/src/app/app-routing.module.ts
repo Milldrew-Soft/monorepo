@@ -5,8 +5,8 @@ import { LandingPageComponentComponent } from './landing-page-component/landing-
 import { StreamAuditoriumComponent } from './stream-auditorium/stream-auditorium.component';
 
 const routes: Routes = [
-  { path: '', component: LandingPageComponentComponent },
-  { path: 'stream/:streamId', component: StreamAuditoriumComponent },
+  { path: 'hide', component: LandingPageComponentComponent },
+  { path: '', component: StreamAuditoriumComponent },
   { path: '**', component: LandingPageComponentComponent },
 ];
 

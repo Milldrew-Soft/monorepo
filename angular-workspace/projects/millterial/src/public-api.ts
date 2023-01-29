@@ -2,6 +2,8 @@
  * Public API Surface of millterial
  */
 
+export * from './lib/avatars/avatars.module';
+export * from './lib/avatars/basic-avatar/basic-avatar.component';
 export * from './lib/buttons/buttons.module';
 export * from './lib/stream-panel/stream-panel.module';
 export * from './lib/stream-panel/stream-panel/stream-panel.component';
