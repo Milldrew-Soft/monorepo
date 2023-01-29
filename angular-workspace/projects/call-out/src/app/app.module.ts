@@ -8,8 +8,10 @@ import {
   MillterialButtonModule,
   MillterialStreamPanelModule,
 } from '../../../millterial/src/public-api';
+import { StreamAuditoriumComponent } from './stream-auditorium/stream-auditorium.component';
+import { LandingPageComponentComponent } from './landing-page-component/landing-page-component.component';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, StreamAuditoriumComponent, LandingPageComponentComponent],
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,
