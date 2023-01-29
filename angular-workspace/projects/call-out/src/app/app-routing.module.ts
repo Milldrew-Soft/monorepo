@@ -6,7 +6,7 @@ import { StreamAuditoriumComponent } from './stream-auditorium/stream-auditorium
 
 const routes: Routes = [
   { path: '', component: LandingPageComponentComponent },
-  { path: 'home', component: StreamAuditoriumComponent },
+  { path: 'stream/:streamId', component: StreamAuditoriumComponent },
   { path: '**', component: LandingPageComponentComponent },
 ];
 
