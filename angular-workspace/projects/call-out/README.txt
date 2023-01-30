@@ -4,7 +4,7 @@ Todos
 ──────
 • Create a stage for the hosts. ✓
 • Create a queue for the guest speakers ✓
-• Create an auditorium seating ✓
+• Create  auditorium seating ✓
 • Create a route to the stream page ✓
 • Create a playwright test that will show each page at every screen size ✓
 
