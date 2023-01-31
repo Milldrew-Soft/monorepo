@@ -15,6 +15,7 @@ import { AuditoriumSeatingComponent } from './stream-auditorium/auditorium-seati
 import { AuditoriumStageComponent } from './stream-auditorium/auditorium-stage/auditorium-stage.component';
 import { AuditoriumCallerStageComponent } from './stream-auditorium/auditorium-caller-stage/auditorium-caller-stage.component';
 import { MatCardModule } from '@angular/material/card';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +26,7 @@ import { MatCardModule } from '@angular/material/card';
     AuditoriumCallerStageComponent,
   ],
   imports: [
+    ScrollingModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
