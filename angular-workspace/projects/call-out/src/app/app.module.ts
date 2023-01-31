@@ -14,6 +14,7 @@ import { LandingPageComponentComponent } from './landing-page-component/landing-
 import { AuditoriumSeatingComponent } from './stream-auditorium/auditorium-seating/auditorium-seating.component';
 import { AuditoriumStageComponent } from './stream-auditorium/auditorium-stage/auditorium-stage.component';
 import { AuditoriumCallerStageComponent } from './stream-auditorium/auditorium-caller-stage/auditorium-caller-stage.component';
+import { MatCardModule } from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { AuditoriumCallerStageComponent } from './stream-auditorium/auditorium-c
     AvatarsModule,
     MillterialButtonModule,
     MillterialStreamPanelModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
